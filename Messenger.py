@@ -10,10 +10,10 @@ if os.path.exists(file_name):
 else:
     print(f"\n{file_name} does not exist. A new file will be created instead")
 
-    new_message = input("Enter a message: ")
+new_message = input("Enter a message: ")
 
-    file = open(file_name, "a")
-    file.write(f"[{name}]: {new_message}\n")
-    file.close()
+file = open(file_name, "a")
+file.write(f"[{name}]: {new_message}\n")
+file.close()
 
-    print("New message has been saved")
+print("New message has been saved")
