@@ -4,4 +4,3 @@
 [Cc]: Fourth Message
 [Cc]: This message is not misspelled
 
-[Cc]: Another message
